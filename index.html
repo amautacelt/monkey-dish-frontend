@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="./src/index.js"></script>
+</head>
+<body>
+    <h1>Hello Frontend Monkey Dish</h1>
+    <p>This is test text</p>
+
+    <div class="all-dishes-container">
+
+    </div>
+    
+
+    <!-- <form id="manager-form" action="">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" required>
+
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" required>
+
+        <label for="title">Title</label>
+        <input type="text" name="title" required>
+
+        <input type="submit" value="Create Manager Account">
+    </form>
+
+    <form id="menu-form" action="">
+        <label for="restaurant_name">Restaurant Name</label>
+        <input type="text" name="restaurant_name" required>
+
+        <label for="restaurant_description">Restaurant Description</label>
+        <input type="text" name="restaurant_description" required>
+
+        <input type="submit" value="Create Menu">
+    </form> -->
+
+        <form id="add-dish-form" action="">
+            <label for="name">Name</label>
+            <input type="text" name="name">
+    
+            <label for="description">Description</label>
+            <input type="text" name="description">
+    
+            <label for="category">Category</label>
+            <!-- <input type="text" name="category" required> -->
+            <select name="category" id="category">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select>
+    
+            <label for="image">Image link</label>
+            <input type="text" name="image">
+    
+            <input type="submit" value="Create Dish">
+        </form>
+    
+
+</body>
+</html>
